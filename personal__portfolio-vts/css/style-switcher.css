@@ -1,0 +1,75 @@
+.style-switcher{
+    position: fixed;
+    right: 0;
+    top: 150px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid black;
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: var(--extra-light);
+    transform: translateX(100%);
+}
+.style-switcher.open{
+    transform: translateX(-25px);
+}
+.day-night{
+    top: 65px;
+}
+.style-switcher-toggler{
+   top: 0;
+} 
+.s-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: black;
+    color: gray;
+    right: 100%;
+    border: 1px solid black;
+    margin-right: 26px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.style-switcher .s-icon i{
+    line-height: 40px;
+}
+.style-switcher h4{
+    margin: 0 0 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.style-switcher .colors span{
+    display: flex;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.style-switcher .colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.style-switcher .color-1{
+    background: #ec1839;
+}
+.style-switcher .color-2{
+    background: #fa5b0f; 
+}
+.style-switcher .color-3{
+    background: #37b182; 
+}
+.style-switcher .color-4{
+    background: #1854b4;   
+}
+.style-switcher .color-5{
+    background: #f021b2;   
+}
